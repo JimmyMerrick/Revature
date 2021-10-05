@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="Assignmentcss.css"/>
+<html>
+    <head>
+        <title>
+            Assignment Form
+        </title>
+    </head>
+    <body>
+        <form action="/assignmentProgram" method="POST" name="form1">
+            <lable for="petName">Please Enter Pet Name :</lable>
+            <input type="text" name="petName"/> 
+            <br/>
+            <label for="age">Please Enter Pet Age :</label>
+            <input type="number" name="petAge" min="0" max="25"/>
+            <br/>
+            <label for="passwored">Choose a Password :</label>
+            <input type="password" name="password"/>
+            <br/>
+            <input type="radio" name="sex"/>Male
+            <input type="radio" name="sex" checked/>Female
+            <br/>
+            Hobbies
+            <br/>
+            <input type="checkbox" name="hobbies"/>Eating
+            <input type="checkbox" name="hobbies"/>Sleeping
+            <input type="checkbox" name="hobbies"/>Playing
+            <input type="checkbox" name="hobbies"/>Shake Hands
+            <input type="checkbox" name="hobbies"/>Sitting
+    
+            <br/>
+            Enter Description
+            <br/>
+            <textarea rows="5" cols="20" name="comments"></textarea>
+            <br/>
+            Birth Month
+            <br/>
+            <select name="Month">
+                <option value="Default"></option>
+                <option value="Jan">January</option>
+                <option value="Feb">February</option>
+                <option value="Mar">March</option>
+                <option value="Apr">April</option>
+                <option value="May">May</option>
+                <option value="Jun">June</option>
+                <option value="Jul">July</option>
+                <option value="Aug">August</option>
+                <option value="Sep">September</option>
+                <option value="Oct">October</option>
+                <option value="Nov">November</option>
+                <option value="Dec">December</option>
+            </select>
+            <br/>
+            <input type="submit" value="Submit"/>
+            <input type="reset" value="Reset"/>
+    
+        </form>
+    </body>
+</html>

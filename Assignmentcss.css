@@ -1,0 +1,21 @@
+body{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 6px;
+    text-align:center;
+    }
+a:link{
+    color: green;
+}
+a:active{
+    color: blue;
+}
+a:focus{
+    color:darkturquoise;
+}
+a:hover{
+    color:purple;
+}
+a:visited{
+    color:yellowgreen;
+}
